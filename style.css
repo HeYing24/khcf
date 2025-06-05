@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f4f0;
+    margin: 0;
+    padding: 0;
+    color: #3e2c23;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #b08968;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #a35f2a;
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e2c23;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logout {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #b08968;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.logout:hover {
+    background-color: #a35f2a;
+}
+
+/* Menu */
+.menu {
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.menu h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3e2c23;
+}
+
+.menu a {
+    display: block;
+    background-color: #ede3d4;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: #3e2c23;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu a:hover {
+    background-color: #d9c3a8;
+    transform: translateY(-5px);
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
+}
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #e6ccb2;
+    color: #3e2c23;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
